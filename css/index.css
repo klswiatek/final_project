@@ -19,7 +19,6 @@ nav {
   padding: 15px;
   width: 100%;
   font-family: 'Open Sans', sans-serif;
-  position: fixed;
 }
 
 a:link, a:visited {
@@ -39,11 +38,16 @@ a {
 
 
 h3 {
-  font-size: 20pt;
+  font-size: 25pt;
   line-height: .5;
   padding-bottom: 20px;
   padding-top: 25px;
-  padding-left: 10px;
+  padding-left: 35px;
   color: #800020;
   font-family: 'Open Sans', sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
