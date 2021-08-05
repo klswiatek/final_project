@@ -27,7 +27,7 @@ a:link, a:visited {
 a:hover {
   background-color: ;
   color: #800020;
-  
+
 }
 
 
@@ -38,4 +38,5 @@ h3 {
   padding-top: 25px;
   padding-left: 10px;
   color: #800020;
+  font-family: 'Open Sans', sans-serif;
 }
