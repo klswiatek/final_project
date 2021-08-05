@@ -18,6 +18,31 @@
 </section>
   </head>
   <body>
-
+    <p> Contact me below for all inquiries. I can't wait to work with you!</p>
+    <form class="test_form" name="test_form" method="" action="form.php" onsubmit="return validateForm(this)">
+      <div class="firstname">
+        <label for="firstname" class="label_input_wrap">First Name:</label>
+        <input type="text" name="firstname" id="firstname">
+      </div>
+      <div class="lastname">
+        <label for="lastname" class="label_input_wrap">Last Name:</label>
+        <input type="text" name="lastname" id="lastname">
+      </div>
+      <div class="email">
+        <label for="email" class="label_input_wrap">Email:</label>
+        <input type="email" name="email" id="email">
+      </div>
+      <div class="telephone">
+        <label for="telephone" class="label_input_wrap">Telephone:</label>
+        <input type="tel" name="telephone" id="telephone">
+      </div>
+      <div class="comments">
+        <label for="comments" class="label_input_wrap">Comments:</label>
+        <textarea name="comments" id="comments" rows="8" cols="80"></textarea>
+      </div>
+      <div class="submit">
+        <input type="submit" value="SUBMIT">
+      </div>
+    </form>
   </body>
 </html>
