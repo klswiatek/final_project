@@ -17,6 +17,7 @@ p {
   text-align: center;
   font-family: 'open sans';
 }
+
 p::first-line {
     color: #800020;
   }
@@ -44,11 +45,11 @@ h3 {
 h1 {
     display: block;
     padding: 7px;
-    font-size: 18px;
+    padding-top: 15px;
+    font-size: 20px;
      margin: auto;
      text-align: center;
      font-family: 'open sans';
-     font-weight: bolder;
   }
   a:link, a:visited {
     color: white;
@@ -76,6 +77,5 @@ h1 {
 </header>
 <body>
 <h1>Thank you for your message!</h1>
-<p>I have received your message, and we will be in touch shortly.</p>
-<p>Form processor provided by <a href="http://www.inventpartners.com">Invent Partners web design York</a>.</p>
+<p>I have received your message and will be in touch shortly.</p>
 </body>
