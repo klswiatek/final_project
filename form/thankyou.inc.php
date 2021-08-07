@@ -15,22 +15,13 @@ p {
   padding: 7px;
   font-size: 20px;
   text-align: center;
-  font-family: monospace;
+  font-family: 'open sans';
 }
 p::first-line {
     color: #800020;
   }
-header .navbar {
-    background-color: lightpink;
-    text-align: center;
-    color: white;
-    font-family: sans-serif;
-    font-size: 20px;
-    padding: 15px;
-    max-width: 775px;
-    margin: auto;
-  }
-  nav {
+
+nav {
     background-color: #808080;
     text-align: left;
     color: white;
@@ -40,10 +31,7 @@ header .navbar {
     width: 100%;
     font-family: 'Open Sans', sans-serif;
   }
-.navbar a:hover {
-    background-color: #ddd;
-    color: lightpink;
-  }
+
 h3 {
     font-size: 25pt;
     line-height: .5;
@@ -59,7 +47,7 @@ h1 {
     font-size: 18px;
      margin: auto;
      text-align: center;
-     font-family: monospace;
+     font-family: 'open sans';
      font-weight: bolder;
   }
   a:link, a:visited {
@@ -71,7 +59,7 @@ h1 {
     background-color: ;
     color: #800020;
   }
-  
+
   a {
     padding: 20px;
   }
