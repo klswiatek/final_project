@@ -4,11 +4,12 @@ padding: 0;
 border: 0;
 }
 body {
-    background-color: lightblue;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }
+  background-image: url('../image/marble.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 p {
   display: block;
   padding: 7px;
@@ -17,7 +18,7 @@ p {
   font-family: monospace;
 }
 p::first-line {
-    color: white;
+    color: #800020;
   }
 header .navbar {
     background-color: lightpink;
@@ -29,19 +30,28 @@ header .navbar {
     max-width: 775px;
     margin: auto;
   }
-.navbar {
-      background-color: lightpink;
-      text-align: center;
-      color: white;
-      font-family: sans-serif;
-      font-size: 20px;
-      padding: 15px;
-      max-width: 775px;
-      margin: auto;
-    }
+  nav {
+    background-color: #808080;
+    text-align: left;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+  }
 .navbar a:hover {
     background-color: #ddd;
     color: lightpink;
+  }
+h3 {
+    font-size: 25pt;
+    line-height: .5;
+    padding-bottom: 20px;
+    padding-top: 25px;
+    padding-left: 35px;
+    color: #800020;
+    font-family: 'Open Sans', sans-serif;
   }
 h1 {
     display: block;
@@ -52,17 +62,29 @@ h1 {
      font-family: monospace;
      font-weight: bolder;
   }
-a:link, a:visited {
-    color: black;
+  a:link, a:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    background-color: ;
+    color: #800020;
+  }
+  
+  a {
+    padding: 20px;
   }
 </style>
 <header>
-  <div class="navbar">
-    <a class="active" href="/../index.html">Home</a>
-    <a href="">About</a>
-    <a href="">Graphic Design</a>
-    <a href="">Photography</a>
-  </div>
+  <section>
+  <h3>Katie Lynn Swiatek</h3>
+  <nav>
+    <a href="about.html">About</a>
+    <a href="examples.html">Work Samples</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  </section>
 </header>
 <body>
 <h1>Thank you for your message!</h1>
